@@ -1,13 +1,19 @@
 # MindArc Junior Backend Assessment
 
+![alt text](media/screenshot.png "Screenshot")
+
+
 Setup
 ---
 
+1. Clone this repo.
 1. `config.php` stores all the database configurations. Please correct it first. 
 1. If the database does not exist, use `create_database.sql` to seed the database. This will create
 an empty database.
+1. To serve `image-uploader.php`. Go into the repo directory. Run `php -S localhost:8888`
+1. Go to the browser on `localhost:8888/image-uploader.php`
 
-Introduction
+Introductions
 ---
 Thanks for taking the time to complete this backend technical assessment. We will be focusing on code quality (reusability, readability, maintainability, etc). You will be required to create a series of PHP functions within scripts and the creation of a MySQL Database containing 2 tables.
 
