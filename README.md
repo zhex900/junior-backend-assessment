@@ -1,5 +1,12 @@
 # MindArc Junior Backend Assessment
 
+Setup
+---
+
+1. `config.php` stores all the database configurations. Please correct it first. 
+1. If the database does not exist, use `create_database.sql` to seed the database. This will create
+an empty database.
+
 Introduction
 ---
 Thanks for taking the time to complete this backend technical assessment. We will be focusing on code quality (reusability, readability, maintainability, etc). You will be required to create a series of PHP functions within scripts and the creation of a MySQL Database containing 2 tables.
